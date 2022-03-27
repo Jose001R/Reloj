@@ -23,7 +23,7 @@ setInterval(() => {
 
     
     document.getElementById('days').innerHTML = dias;
-    document.getElementById('hours').innerHTML = horas;
+    document.getElementById('hours').innerHTML = horas-12;
     document.getElementById('minutes').innerHTML = minutos;
     document.getElementById('seconds').innerHTML = segundos; 
 }, 1000);
