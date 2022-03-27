@@ -38,9 +38,9 @@ body{
 #titulo{
     font-size: 30px;
     color: #4ffee7;
-    position: absolute;
-    bottom: 150px;
-    left: 45.5%;
+    position: relative;
+    top: 430px;
     word-spacing: 10px;
     filter: drop-shadow(0 20px 40px #4ffee7);
+    text-align: center;
 }
