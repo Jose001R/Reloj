@@ -1,15 +1,8 @@
-// let dias = document.getElementById('days');
-// let hours = document.getElementById('hours');
-// let minutes = document.getElementById('minutes');
-// let seconds = document.getElementById('seconds');
-
-
-
 setInterval(() => {
 
     let time = new Date();
 
-    let dias = time.getDay();
+    let dias = time.getDate();
     let horas = time.getHours();
     let minutos = time.getMinutes();
     let segundos = time.getSeconds();
