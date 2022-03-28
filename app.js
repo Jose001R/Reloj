@@ -14,8 +14,8 @@ setInterval(() => {
     if (horas<10){
         horas = "0"+horas;
     }
-    if (minutes<10){
-        minutes = "0"+minutes;
+    if (minutos<10){
+        minutos = "0"+minutos;
     }
     if (segundos<10){
         segundos = "0"+segundos;
